@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Microscopio",
+    "description": "dfasfasdfsdaf",
+    "code": "MI400",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/microscope-lab-science-school-128.png",
+    "price": "456",
+    "stock": "10",
+    "id": 1
+  },
+  {
+    "title": "Mochila",
+    "description": "dfasfs",
+    "code": "MO500",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-128.png",
+    "price": "1000",
+    "stock": "20",
+    "timestamp": 1654454337383,
+    "id": 2
+  }
+]
