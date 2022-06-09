@@ -30,7 +30,9 @@ app.use((req, res) => {
     res.status(404).send("ruta no implementada");
 })
     
-httpServer.listen(8080, () => {
+const PORT = process.env.PORT || 8080;
+
+httpServer.listen(PORT, () => {
     console.log("escuchando desafio 14");
 });
     
