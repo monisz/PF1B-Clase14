@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": 1654798649882,
+    "products": [
+      {
+        "title": "Mochila 4",
+        "description": "de plastico",
+        "code": "MO500",
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-128.png",
+        "price": "800",
+        "stock": "15",
+        "timestamp": 1654613930455,
+        "id": 5
+      }
+    ],
+    "id": 1
+  },
+  {
+    "timestamp": 1654798654600,
+    "products": [
+      {
+        "title": "Mochila",
+        "description": "de cuero",
+        "code": "MO500",
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-128.png",
+        "price": "1000",
+        "stock": "25",
+        "timestamp": 1654454337383,
+        "id": 2
+      },
+      {
+        "title": "Mochila 3",
+        "description": "de plastico",
+        "code": "MO500",
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-128.png",
+        "price": "800",
+        "stock": "15",
+        "timestamp": 1654613852106,
+        "id": 4
+      }
+    ],
+    "id": 2
+  }
+]

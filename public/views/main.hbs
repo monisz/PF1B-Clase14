@@ -55,17 +55,3 @@
     <h3 style="background-color:aquamarine">No se encontraron productos</h3><br>
     {{/if}}
 </div>
-
-<div class="container p-5 my-5 bg-light">
-  <h1 style="color:blue">Centro de mensajes</h1>
-  <form onsubmit="return sendMessage()" >
-    <div class="mb-3 mt-3">
-      <input type="email" class="form-control" id="email" placeholder="Ingrese su email" required/>
-    </div>
-    <div id="messages"></div>
-    <div class="mb-3 mt-3">
-      <input type="text" class="form-control" id="text" placeholder="Ingresá un mensaje"/>
-    </div>
-    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
-  </form>
-</div>
