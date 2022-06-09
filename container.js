@@ -80,13 +80,12 @@ class Container {
         try {
             const content = await fs.promises.readFile(this.fileName, 'utf-8');
             const contentParse = JSON.parse(content);
-// TO DO: HACERLO X BUSQUEDA DE ID Y NO POR POSICION EN EL ARRAY
             const idFind = contentParse.find((elem) => elem.id === id);            
             if (!idFind) console.log("error: ese carrito no existe")
             else {
-                contentParse.splice((id-1),1);
+                const newContent = contentParse.filter((elem) => elem.id !== id)
                 try {
-                    await fs.promises.writeFile(this.fileName, JSON.stringify(contentParse, null, 2));
+                    await fs.promises.writeFile(this.fileName, JSON.stringify(newContent, null, 2));
                     console.log("escritura exitosa en deleteById");
                 }
                 catch (error) {
