@@ -25,6 +25,10 @@ app.set('views', './public/views');
 app.set('view engine', 'hbs');
     
 app.use('/', apiRoutes);
+
+app.use((req, res) => {
+    res.status(404).send("ruta no implementada");
+})
     
 httpServer.listen(8080, () => {
     console.log("escuchando desafio 14");

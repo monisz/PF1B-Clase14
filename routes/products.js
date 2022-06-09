@@ -11,7 +11,7 @@ const admin = true;
 
 const isAdmin = (req, res, next) => {
     if (admin === true ) next();
-    else next(res.json ("error: 401, descripcion: método no autorizado"));
+    else res.status(403).send("método no autorizado");
 };
 
 //Vista de todos los productos
@@ -67,5 +67,6 @@ router.delete('/:id', isAdmin, (req, res) => {
         else res.send("producto eliminado");
     }) ();
 });
+
 
 module.exports = router;
